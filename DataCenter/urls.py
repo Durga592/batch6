@@ -19,6 +19,7 @@ from django.http import HttpResponse
 
 def temprature(request):
 	return HttpResponse("27.56")
+	#ok...
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
